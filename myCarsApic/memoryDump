@@ -1,0 +1,10 @@
+{
+  "ids": {
+    "Car": 2
+  },
+  "models": {
+    "Car": {
+      "1": "{\"name\":\"product 1\",\"description\":\"hello\",\"price\":95189779,\"id\":1}"
+    }
+  }
+}

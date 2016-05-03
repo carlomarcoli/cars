@@ -1,0 +1,66 @@
+type: bluemix
+server:
+  displayName: United Kingdom
+  name: eu-gb
+  host: eu.apiconnect.ibmcloud.com
+org:
+  url: 'https://eu.apiconnect.ibmcloud.com/v1/orgs/56faa55c0cf2ec5f1ac7d6eb'
+  id: 56faa55c0cf2ec5f1ac7d6eb
+  name: cmarcoliukibmcom-sandpit
+  status: active
+  orgType: apiProvider
+  displayName: CMARCOLI@UK.IBM.COM (Sandpit)
+  externalOrgId: 5375ed6d-6fd8-46f0-a7c4-75bbc6da372a
+  externalInviteOverride: 'https://new-console.eu-gb.bluemix.net/apis/catalog/invitation'
+  externalSpaceId: 5375ed6d-6fd8-46f0-a7c4-75bbc6da372a
+  externalNativeOrgId: 7793ee88-d9f1-4c26-8bbe-b1d22ff21070
+  advPortalOverride: true
+  extUaaAuthenticated: false
+  requiresSSLClientCertCheck: false
+catalog:
+  id: 56faa55c0cf2ec5f1ac7d6f2
+  shortName: sb
+  name: Sandbox
+  sandbox: true
+app:
+  metadata:
+    guid: 96ca49b6-68c7-481b-8ee9-fe044364365f
+    url: /v2/apps/96ca49b6-68c7-481b-8ee9-fe044364365f
+    created_at: '2016-05-03T16:08:11Z'
+    updated_at: '2016-05-03T16:09:39Z'
+  entity:
+    name: cars2
+    production: false
+    space_guid: 5375ed6d-6fd8-46f0-a7c4-75bbc6da372a
+    stack_guid: 423dd340-c07e-44c2-b7fb-601c10fd32d3
+    buildpack: null
+    detected_buildpack: 'SDK for Node.js(TM) (ibm-node.js-4.3.2, buildpack-v3.2-20160315-1257)'
+    environment_json: {}
+    memory: 256
+    instances: 1
+    disk_quota: 1024
+    state: STARTED
+    version: 914eb3a7-2eb3-4d31-8e6a-a8a15503ebc2
+    command: null
+    console: true
+    debug: null
+    staging_task_id: fd6a86af4ae640a686d6376bdeaebab0
+    package_state: STAGED
+    health_check_type: port
+    health_check_timeout: null
+    staging_failed_reason: null
+    staging_failed_description: null
+    diego: false
+    docker_image: null
+    package_updated_at: '2016-05-03T16:08:22Z'
+    detected_start_command: ./vendor/initial_startup.rb
+    enable_ssh: true
+    docker_credentials_json:
+      redacted_message: '[PRIVATE DATA HIDDEN]'
+    space_url: /v2/spaces/5375ed6d-6fd8-46f0-a7c4-75bbc6da372a
+    stack_url: /v2/stacks/423dd340-c07e-44c2-b7fb-601c10fd32d3
+    events_url: /v2/apps/96ca49b6-68c7-481b-8ee9-fe044364365f/events
+    service_bindings_url: /v2/apps/96ca49b6-68c7-481b-8ee9-fe044364365f/service_bindings
+    routes_url: /v2/apps/96ca49b6-68c7-481b-8ee9-fe044364365f/routes
+id: bb599fd9-c9c5-4694-a74d-0f6e799b0dd5
+target: 1.0.0
